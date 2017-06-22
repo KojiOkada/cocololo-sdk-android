@@ -1,0 +1,39 @@
+<!--
+	Android COCOLOLO アプリの心拍グラフを WebView で表示するときに読み込ませる HTML ファイル。
+	
+	  ・Android 版 LifescoreMobile の assets/preparation1.html をベースに修正。
+	  ・css/defalut.css と js/default.js も修正。
+	  ・修正箇所は "For Android App" の文字列で検索。
+	  ・グラフは WebView 全体に（同じサイズで）表示される。
+-->
+
+<!DOCTYPE html>
+<html lang="ja" class="for_android_app">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<title>Lifescore Mobile</title>
+	<link href="css/default.css" rel="stylesheet">
+</head>
+<body class="for_android_app">
+
+	<div id="for_android_app" class="page">
+
+		<div class="box_waveform_android measure1">
+			<canvas id="waveform1"></canvas>
+		</div>
+
+	</div>
+
+<input type="hidden" value="0" id="y1" />
+
+<!-- javascript ================================================================-->
+<script src="js/jquery-1.8.2.min.js"></script>
+<script src="js/smoothie.js"></script>
+<script src="js/default.js"></script>
+<!-- /javascript ================================================================-->
+</body>
+</html>

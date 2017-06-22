@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alertButtonCancel">キャンセル</string>
+    <string name="alertButtonNo">いいえ</string>
+    <string name="alertButtonOK">OK</string>
+    <string name="alertButtonReTry">再試行</string>
+    <string name="alertButtonYes">はい</string>
+    <string name="alertMessageAnalysisError">測定精度が低かったため、\n再度測定します。</string>
+    <string name="alertMessageDisplaySizeError">端末の解像度が小さいためアプリを起動することが出来ませんでした。</string>
+    <string name="alertMessageInsertMeasurementInfoError">
+        測定データをサーバーに保存出来ませんでした。\n通信環境の良い場所で、\n再度実行してください。
+    </string>
+    <string name="alertMessageLoadDataError">データの引き継ぎが失敗しました。引き継ぐ元の端末でユーザー情報登録を行ってから再度お試しください。
+    </string>
+    <string name="alertMessageMailaddressError">正しいメールアドレスを\n入れてください。</string>
+    <string name="alertMessageNetworkError">サーバー接続に失敗しました。\n通信環境の良い場所で、\n再度測定してください。</string>
+    <string name="alertMessageNetworkError2">通信エラーが発生しました。</string>
+    <string name="alertMessageNetworkError3">通信に失敗しました。</string>
+    <string name="alertMessageNetworkError4">通信に失敗しました。\n通信状況の良い所で、再度通信して下さい。</string>
+    <string name="alertMessageNetworkErrorTitle">通信エラー</string>
+    <string name="alertMessageOtherError">
+        予期せぬエラーが発生したため、測定結果を取得することが出来ませんでした。\n申し訳ございませんが、再度測定し直して下さい。
+    </string>
+    <string name="alertMessagePasswordConfirm">パスワードは一致していません。</string>
+    <string name="alertMessagePasswordNum6">パスワードは６文字以上を\n入れてください。</string>
+    <string name="alertMessagePasswordOrMailaddressNotFit">メールアドレスまたはパスワードが不一致のため、データの引き継ぎができません。
+    </string>
+    <string name="alertMessagePrecheckError1">人さし指の先を軽くカメラに当て、測定の準備をしましょう。</string>
+    <string name="alertMessagePrecheckError2">うまく測定できていません。\n指の位置などを確認して、再度測定しましょう。</string>
+    <string name="alertMessageUploadProgress">測定結果をアップロードして分析しています…</string>
+    <string name="alertTitleError">エラー</string>
+    <string name="alertTitleInformation">情報</string>
+    <string name="alertTitleNotification">通知</string>
+    <string name="alertTitleWarning">警告</string>
+    <string name="alert_after_measure_message">リラックス効果を測定</string>
+    <string name="alert_button_no">いいえ</string>
+    <string name="alert_button_sokutei">測定</string>
+    <string name="alert_button_yes">はい</string>
+    <string name="alert_delete_message">友達リストから削除します。\nよろしいですか。</string>
+    <string name="alert_delete_title">友達削除</string>
+    <string name="alert_premiummusic_message">コンテンツがありません。パスコードは正しいかをご確認下さい。</string>
+    <string name="app_name">Cocololo-sdk</string>
+    <string name="button_close">閉じる</string>
+    <string name="cafespace_action">行動：</string>
+    <string name="cafespace_before_day">日前</string>
+    <string name="cafespace_before_hour">時間前</string>
+    <string name="cafespace_before_min">分前</string>
+    <string name="cafespace_before_year">年前</string>
+    <string name="cafespace_memo">メモ：</string>
+    <string name="comment_hint">ここをタッチしコメントを入力して下さい。</string>
+    <string name="dateformat_yyMMdd">yy/MM/dd</string>
+    <string name="dateformat_yyMMddHHmm">yy/MM/dd HH:mm</string>
+    <string name="dateformat_yyyyMMdd">yyyy-MM-dd</string>
+    <string name="dateformat_yyyyMMddHHmmss">yyyyMMddHHmmss</string>
+    <string name="dateformat_yyyyMMddHHmmss_h">yyyy-MM-dd HH:mm:ss</string>
+    <string name="dateformat_yyyyMMddHHmmss_s">yyyy/MM/dd HH:mm:ss</string>
+    <string name="dateformat_yyyyMMdd_ja">yyyy年MM月dd日</string>
+    <string name="dateformat_yyyyMMdddotHHmmss">yyyyMMdd.HHmmss</string>
+    <string name="dialog_button_cancel">キャンセル</string>
+    <string name="dialog_button_ok">はい</string>
+    <string name="dialog_button_ok_en">OK</string>
+    <string name="dialog_msg_alert_passcode">パスコードを正しく入力してください。</string>
+    <string name="dialog_msg_confirm_deleteonemeasurement">この測定結果を削除します。\nよろしいですか？</string>
+    <string name="dialog_msg_confirm_loaddata">データを引き継ぎます。\nよろしいですか？</string>
+    <string name="dialog_msg_confirm_usecoupon">クーポンは使用済みになります。\nよろしいですか？</string>
+    <string name="dialog_msg_info_nobooks">現在オススメの本はありません。</string>
+    <string name="dialog_msg_nickname_must">ニックネームを入力してください。</string>
+    <string name="dialog_msg_nickname_other">このニックネームはすでに登録されており、違うものにして、再度登録してください！</string>
+    <string name="dialog_title_comment">コメント</string>
+    <string name="dialog_title_confirm">確認</string>
+    <string name="dialog_title_search">友人のニックネーム</string>
+    <string name="error_player">error_player</string>
+    <string name="friend_request_tag">friend_request_tag</string>
+    <string name="gcm_defaultSenderId">499307536739</string>
+    <string name="get_coupon">クーポン獲得</string>
+    <string name="google_app_id">499307536739</string>
+    <string name="houjin_checkin_companycode">企業コード：</string>
+    <string name="houjin_checkin_completed">チェックインできました。</string>
+    <string name="houjin_checkin_empcode">社員コード：</string>
+    <string name="houjin_checkin_info_error">チェックイン情報に誤りがあります。</string>
+    <string name="houjin_checkin_input_error">正しい企業コードと社員コードを入力してください。</string>
+    <string name="houjin_checkin_messages">
+        以下の情報を入力して、チェックインしてください。\n\nチェックインすると、PC画面上でもCOCOLOLOの測定結果が閲覧できるようになります。
+    </string>
+    <string name="houjin_uncheckin_completed">チェックインが解除されました。</string>
+    <string name="houjin_uncheckin_confirm">チェックイン解除します。宜しいですか。</string>
+    <string name="informationMessageLoadDataComplete">データの引き継ぎが完了しました。</string>
+    <string name="informationMessageMailaddressRegisted">バックアップ登録が\n正常に完了しました。</string>
+    <string name="informationMessageMailaddressRegistedAlread">メールアドレスの登録はすでに行われていました。</string>
+    <string name="informationMessageMailaddressRegistedAlreadAndNew">
+        この端末でのメールアドレス登録はすで行われましたので、新しいメールアドレスの登録はできません。
+    </string>
+    <string name="informationMessageMailaddressRegistedAlreadAndReregist">
+        このメールアドレスは別の端末で登録済みで、再登録はできません。
+    </string>
+    <string name="informationMessagePasswordRequestNotRegisted">このメールアドレスは\n登録されていません。</string>
+    <string name="informationMessagePasswordRequestOK">ご登録頂いたメールアドレスに\nパスワードを送信しました。</string>
+    <string name="informationMessageRegistMailaddressDialog">
+        「バックアップ登録」をしましょう!\n\n端末の紛失、機種変更等の場合でも、測定データを安全に引き継ぐことができます。(トップ画面の「設定」→「アカウント登録」→「データのバックアップ」)
+    </string>
+    <string name="label_login_passcode">パスコード</string>
+    <string name="label_login_passcodemsg">パスコードを入力してください。</string>
+    <string name="nikki_today_img_tag">nikki_today_img_tag</string>
+    <string name="passcodehint">パスコードをここに入力</string>
+    <string name="playerview_text">音楽再生</string>
+    <string name="profile_cafefriand_release_message">カフェ友解除します。\n宜しいですか。</string>
+    <string name="profile_timeline_header_settinggear_block">ブロックする</string>
+    <string name="profile_timeline_header_settinggear_block_message">ブロックしました</string>
+    <string name="profile_timeline_header_settinggear_doc">報告する</string>
+    <string name="profile_timeline_header_settinggear_doc_fragment_message">報告しました</string>
+    <string name="profile_timeline_header_settinggear_doc_fragment_title">報告の内容</string>
+    <string name="recieve_friend_requested">さんから友達リクエストがありました。</string>
+    <string name="rmp_appirater_rate">%sを評価する</string>
+    <string name="rmp_appirater_rate_cancel">いいえ</string>
+    <string name="rmp_appirater_rate_later">後で見る</string>
+    <string name="rmp_appirater_rate_message">ご意見をお願いします。%sを評価しますか？</string>
+    <string name="rmp_appirater_rate_title">%sの評価</string>
+    <string name="search_hint">ここにニックネーム入力し友人を検索</string>
+    <string name="send_friend_requested">友達リクエストを送信しました。</string>
+    <string name="show_label_book_author">著者：</string>
+    <string name="show_label_book_notax">（税抜）</string>
+    <string name="show_label_book_price">定価：</string>
+    <string name="show_label_book_publishdate">発行日：</string>
+    <string name="show_label_hp">■ホームページ\n</string>
+    <string name="show_label_msg">[メッセージ]</string>
+    <string name="show_label_music_result">リラックス度</string>
+    <string name="show_label_music_result_100">/100</string>
+    <string name="show_label_nocoupon">使用できるクーポンがありません。</string>
+    <string name="show_label_nosusumecoupon">オススメがありません。</string>
+    <string name="show_label_relax_du">リラックス度：</string>
+    <string name="show_label_see">↑みる</string>
+    <string name="show_label_yukou">まで有効</string>
+    <string formatted="false" name="sympathical_degree_explanation">
+        相手の測定結果の傾向が、自分の傾向とどのくらい近いかを示した、COCOLOLO独自の指標です。①累積測定結果、②直近の測定結果、③測定タイミングなどを考慮して算出しています。\n\nキモチの傾向やライフスタイルの傾向が近いほど、「共感度」は高くなります。\n\n◇100%-81%：共感度はとても高い\n◇80%-61%：共感度はやや高い\n◇60%-41%：共感度は普通\n◇40%-21%：共感度はやや低い\n◇20%-0%：共感度はとても低い\n
+    </string>
+    <string name="tab_label_friend">カフェ友</string>
+    <string name="tab_label_got_coupons">取得クーポン\n　　一覧</string>
+    <string name="tab_label_partner">COCOLOLO\nパートナー</string>
+    <string name="tab_label_staff">スタッフの\n オススメ</string>
+    <string name="tab_label_staff_osusume">オススメ</string>
+    <string name="tag_artist">tag_artist</string>
+    <string name="tag_books_id">tag_books_id</string>
+    <string name="tag_books_type">tag_books_type</string>
+    <string name="tag_books_url">tag_books_url</string>
+    <string name="tag_feeling">tag_feeling</string>
+    <string name="tag_information_id">tag_information_id</string>
+    <string name="tag_songtitle">tag_songtitle</string>
+    <string name="tag_songurl">tag_songurl</string>
+    <string name="title_activity_cafe_space">CafeSpaceActivity</string>
+    <string name="title_after_music_genre1">Lifestyle</string>
+    <string name="title_after_music_genre2">Nature</string>
+    <string name="title_after_music_genre3">Asian</string>
+    <string name="title_after_music_genre4">Orchestra</string>
+    <string name="title_after_music_question">キモチをはかる</string>
+    <string name="title_after_music_result">測定結果</string>
+    <string name="title_after_music_top">音楽で癒される</string>
+    <string name="title_cafespace">カフェスペース</string>
+    <string name="title_chat">メッセージ</string>
+    <string name="title_checkin">チェックイン（法人向け）</string>
+    <string name="title_column_top">コラム</string>
+    <string name="title_coupon">クーポン</string>
+    <string name="title_coupon_list">クーポン一覧</string>
+    <string name="title_databackup">データのバックアップ</string>
+    <string name="title_databackup_load">データ引き継ぎ</string>
+    <string name="title_databackup_regist">バックアップ登録</string>
+    <string name="title_friend_search">友人招待</string>
+    <string name="title_information_detail">お知らせ</string>
+    <string name="title_kimochi_yohou_top">今日のキモチ予報</string>
+    <string name="title_music_pickup3_top">オススメのMUSIC</string>
+    <string name="title_music_ranking_all">ソーシャルランキング</string>
+    <string name="title_music_ranking_my">Myランキング</string>
+    <string name="title_music_ranking_top">Music</string>
+    <string name="title_mysheet_top">マイシート</string>
+    <string name="title_new_solution_advice">アドバイス</string>
+    <string name="title_new_solution_top">キモチをととのえる</string>
+    <string name="title_nickname">ニックネーム</string>
+    <string name="title_partner_detail">COCOLOLOパートナーの詳細説明</string>
+    <string name="title_partner_top">COCOLOLOパートナー</string>
+    <string name="title_partner_top_201607">COCOLOLOパートナーのクーポン</string>
+    <string name="title_premiummusic_login">ログイン</string>
+    <string name="title_premiummusic_top">プレミアムコンテンツ</string>
+    <string name="title_ranking_of_people">人中</string>
+    <string name="title_ranking_title">ランキング</string>
+    <string name="title_setting_new_top">設定</string>
+    <string name="title_solution_after_osusume">オススメのコンテンツをみる</string>
+    <string name="title_solution_after_stress">キモチをととのえる</string>
+    <string name="title_solution_book_normal">定番の１冊</string>
+    <string name="title_solution_book_osusume">オススメの１冊</string>
+    <string name="title_solution_book_stress">元気になる１冊</string>
+    <string name="title_solution_book_today">今日の１冊</string>
+    <string name="title_solution_book_top">ジャンル</string>
+    <string name="title_solution_music_top">音楽で癒される</string>
+    <string name="title_solution_thridapp_top">オススメのアプリ</string>
+    <string name="title_solution_top">オススメのコンテンツをみる</string>
+    <string name="title_stress_comment_are">あれっ？と思ったら</string>
+    <string name="title_user_id">ユーザーID</string>
+    <string name="title_user_regist">ユーザー情報登録</string>
+    <string name="toast_delete_friend">友達リストから削除しました。</string>
+    <string name="toast_nickname_check_error">ニックネームが他の方と重複していたので、%sが登録可能です。</string>
+    <string name="toast_reject_friend">友達になるのを拒否しました。</string>
+    <string name="toast_saved_coupon">クーポンを保存しました。</string>
+    <string name="toast_userid_check_error">ユーザーIDが他の方と重複していたので、%sが登録可能です。</string>
+    <string name="toast_was_friend">友達になりました。</string>
+    <string name="up_sns_activity_title">みんなのキモチに投稿</string>
+    <string name="up_sns_message_fail">投稿が失敗しました。もう一度お試しください。</string>
+    <string name="up_sns_message_success">「みんなのキモチ」に投稿しました。</string>
+    <string name="was_friend">さんと友達になりました。</string>
+    <string name="whats_symapathical_degree">共感度とは？</string>
+</resources>

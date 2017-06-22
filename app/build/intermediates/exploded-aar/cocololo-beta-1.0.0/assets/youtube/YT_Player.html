@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <script src="https://www.youtube.com/player_api"></script>
+        <style>
+            body, div {
+                margin: 0px;
+                padding: 0px;
+            }
+            </style>
+    </head>
+    <body>
+        <div id="media_area"></div>
+    </body>
+    <script>
+        var ytPlayer = null;
+
+        function onYouTubePlayerAPIReady() {
+            ytPlayer = new YT.Player('media_area', {width: '320', videoId: 'xxxxxxxx',
+                                     events: {
+										'onReady': onPlayerReady,
+										'onStateChange': onPlayerStateChange
+									 }
+									 },
+									 'webkit-playsinline'
+									 );
+        }
+
+        function onPlayerReady(e) {
+            e.target.playVideo();
+        }
+
+		function onPlayerStateChange(e)
+		{
+			if( e.data == YT.PlayerState.ENDED )
+			{
+				window.location = "callback:anything";
+			}
+		}
+
+		function checkTime()
+		{
+			if( ytPlayer == null )
+			{
+				return false;
+			}
+
+			var duration = ytPlayer.getDuration();
+			var currentTime = Math.round(ytPlayer.getCurrentTime()*10)/10;
+
+			if( duration > 0 && currentTime > 0 && duration - currentTime < 30 )
+			{
+				return true;
+			}
+			return false;
+		}
+
+        </script>
+</html>

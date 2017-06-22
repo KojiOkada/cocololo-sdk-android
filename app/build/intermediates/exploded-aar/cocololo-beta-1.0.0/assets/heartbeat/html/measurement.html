@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<!-- <meta name="viewport" content="width=device-width,minimum-scale=1, maximum-scale=1, user-scalable=no"> -->
+	<meta name="viewport" content="width=720">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<title>Lifescore Mobile</title>
+	<link href="css/default.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- #page7.page ===================================================================-->
+<div id="page7" class="page">
+
+	<!-- #ヘッダ ===================================================================-->
+	<header id="header" class="fixed">
+
+		 <!-- .inr -->
+		 <div class="inr">
+			 <h1 class="ttl">測定</h1>
+
+			 <!-- .btn_top -->
+			 <div class="btn_top">
+				 <a href="#" class="btn">トップ</a>
+			 </div>
+			 <!-- /.btn_top -->
+
+		 </div>
+		 <!-- /.inr -->
+
+	</header>
+	<!-- /#ヘッダ ==================================================================-->
+
+	<!-- #コンテンツ ================================================================-->
+	<div id="contents">
+
+		<!-- .box_measureDuring -->
+		<div class="box_measureDuring">
+
+			<!-- .box_scale -->
+			<div class="box_scale">
+				<img src="img/tokimeki_scale.png" alt="tokimeki_scale" width="85" height="80">
+			</div>
+			<!-- /.box_scale -->
+
+			<!-- .box_progress -->
+			<div class="box_progress">
+				<div class="progress"></div>
+			</div>
+			<!-- /.box_progress -->
+
+			<!-- .box_waveform.measure2 -->
+			<div class="box_waveform measure2">
+				<canvas id="waveform2" width="628" height="260"></canvas>
+			</div>
+			<!-- /.box_waveform.measure2 -->
+
+		</div>
+		<!-- /.box_measureDuring -->
+
+	</div>
+	<!-- /#コンテンツ ===============================================================-->
+
+</div>
+<!-- /#page7.page ===================================================================-->
+<input type="hidden" value="0" id="y2" />
+
+<!-- javascript ================================================================-->
+<script src="js/jquery-1.8.2.min.js"></script>
+<script src="js/smoothie.js"></script>
+<script src="js/default.js"></script>
+<!-- /javascript ================================================================-->
+</body>
+</html>
