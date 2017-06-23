@@ -1,4 +1,4 @@
-#Thu Jun 22 23:57:29 JST 2017
+#Fri Jun 23 23:09:40 JST 2017
 base.0=/Users/kunishinryuunosuke/開発/winflontier/cocololo/sdk/android_sdk/win/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/Users/kunishinryuunosuke/開発/winflontier/cocololo/sdk/android_sdk/win/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

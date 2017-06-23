@@ -52,7 +52,7 @@
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="c68e114af43ef75f5afde5586b175cf4efaf2939">
+        sha1="f51972d9b77042754af612489626b297cd8b4463">
         <dex dex="/Users/kunishinryuunosuke/開発/winflontier/cocololo/sdk/android_sdk/win/app/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-cocololo-beta-1.0.0_ce6aab051ceea3ac0c1bfb154d3e5e391c841ef3.jar" />
     </item>
     <item
