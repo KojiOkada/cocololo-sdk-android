@@ -1,0 +1,1267 @@
+@charset "utf-8";
+/*--------------------------------------------------------------------------*
+ *
+ *  default css
+ *
+ *  (C) Cosa-L Co.,Ltd.All Rights Reserved.
+ *
+ *  2012 Cosa-L Co.,Ltd.
+ *  http://www.cosa-l.co.jp/
+ *
+ *  Last Modified: 2012-10-03
+ *  Last Editor: Toshiyuki Hara
+ *
+ *--------------------------------------------------------------------------*/
+
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/*
+ * Corrects `block` display not defined in IE 8/9.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+}
+.clearfix {
+    display: block;
+}
+/*
+ * Corrects `inline-block` display not defined in IE 8/9.
+ */
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 8/9.
+ */
+
+[hidden] {
+    display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Sets default font family to sans-serif.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+    font-family: sans-serif; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -ms-text-size-adjust: 100%; /* 2 */
+}
+
+/*
+ * Removes default margin.
+ */
+
+body {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+
+a:focus {
+    outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+/*
+ * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
+ * Safari 5, and Chrome.
+ */
+
+h1,h2 {
+	margin: 0;
+    font-size: 2em;
+}
+
+/*
+ * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+
+b,
+strong {
+    font-weight: bold;
+}
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+
+dfn {
+    font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE 8/9.
+ */
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+
+/*
+ * Corrects font family set oddly in Safari 5 and Chrome.
+ */
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/*
+ * Sets consistent quote types.
+ */
+
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+
+small {
+    font-size: 80%;
+}
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+
+/*
+ * Removes border when inside `a` element in IE 8/9.
+ */
+
+img {
+    border: 0;
+}
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+
+/*
+ * Addresses margin not present in IE 8/9 and Safari 5.
+ */
+
+figure {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
+/*
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+    border: 0; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/*
+ * 1. Corrects font family not being inherited in all browsers.
+ * 2. Corrects font size not being inherited in all browsers.
+ * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ */
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 2 */
+    margin: 0; /* 3 */
+}
+
+/*
+ * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+button,
+input {
+    line-height: normal;
+}
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+    cursor: pointer; /* 3 */
+}
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to `content-box` in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; /* 2 */
+    box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE 8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}
+
+select { font-size: 40px; }
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+/*
+ * Remove most spacing between table cells.
+ */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ==========================================================================
+   default css
+   ========================================================================== */
+/* html,body { height: 100%; } */
+
+body {
+	font: 24px/1.5 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	background: url(../img/bg.jpg) 0 0;
+}
+
+a,select { -webkit-tap-highlight-color: rgba(0,0,0,0); }
+
+#container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.page {
+	width: 500px;
+	height: 100%;
+	position: relative;
+}
+
+#contents {
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+}
+
+.btn {
+	display: block;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background: url(../img/btn_sprite.png) no-repeat;
+}
+
+.btn.disabled { opacity: .5; }
+
+.logo {
+	width: 694px;
+	height: 160px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#header.fixed {
+	width: 100%;
+	height: 102px;
+	overflow: hidden;
+	/* position: relative; */
+	background-image:
+		-webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			color-stop(0, rgb(112, 178, 111)),
+			color-stop(1, rgb(43, 141, 63))
+		);
+	border-bottom: 1px solid #1f6b30;
+	-webkit-box-shadow:
+		0 7px 7px rgba(0, 0, 0, .4),
+		7px 0 7px rgba(0, 0, 0, .4),
+		-7px 0 7px rgba(0, 0, 0, .4),
+		0 -1px 0 rgba(54, 165, 83, 1) inset;
+	z-index: 1;
+}
+
+#header.fixed .inr {
+	height: 101px;
+	position: relative;
+	background: url(../img/bg_tokimekiHead.png) right top no-repeat;
+	border-bottom: 1px solid #35a553;
+}
+
+#header.fixed h1.ttl {
+	height: 99px;
+	line-height: 100px;
+	overflow: hidden;
+	color: #fff;
+	font-size: 42px;
+	text-align: center;
+	text-shadow: 0 -1px 3px rgba(0, 0, 0, .3);
+}
+
+#footer.fixed {
+	height: 166px;
+	text-align: center;
+	letter-spacing: -.4em;
+	background: url(../img/bg_footer.png) 0 0 repeat-x;
+	-webkit-box-shadow: 0 -7px 7px rgba(0, 0, 0, .3);
+}
+
+/* topページボタン */
+.btn_top {
+	width: 110px;
+	height: 66px;
+	position: absolute;
+	top: 19px;
+	left: 10px;
+}
+
+	.btn_top .btn {
+		width: 110px;
+		height: 66px;
+		background-position: -1200px -900px;
+	}
+
+	.btn_top a.tapdown { background-position: -1200px -1000px; }
+
+
+/*----------------------------------------------------
+	page1 01-利用規約
+----------------------------------------------------*/
+#page1 #footer {
+	height: 153px;
+}
+
+.img_catch {
+	margin: 44px 0 12px;
+	overflow: hidden;
+	text-align: center;
+}
+
+
+.term {
+	width: 674px;
+	margin: 0 auto 50px;
+	text-align: left;
+	border: 3px solid #7a6e5e;
+	-webkit-border-radius: 9px;
+	border-radius: 9px;
+}
+
+	.term .ttl {
+		line-height: 1;
+		padding: 18px 0 22px;
+		font-size: 32px;
+		color: #fff;
+		text-align: center;
+		background: #7a6e5e;
+	}
+
+	.term pre {
+		padding: 29px;
+		margin: 0;
+		background: #fff;
+		-webkit-border-bottom-left-radius: 5px;
+		-webkit-border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+
+/* 同意ボタン */
+.btn_agree,
+.btn_regist {
+	width: 370px;
+	height: 115px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+	.btn_agree .btn,
+	.btn_regist .btn {
+		width: 370px;
+		height: 115px;
+	}
+
+	.btn_agree .btn { background-position: 0 -1900px; }
+	.btn_agree a.tapdown { background-position: -400px -1900px; }
+	.btn_regist .btn { background-position: 0 -2050px; }
+	.btn_regist a.tapdown { background-position: -400px -2050px; }
+
+/*----------------------------------------------------
+	page2 02-ユーザー基本情報登録
+----------------------------------------------------*/
+#page2 #footer { height: 153px; }
+
+.userDataSet {
+	width: 694px;
+	height: 811px;
+	padding: 11px 0 0;
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	background: url(../img/bg_userDataSet.png) no-repeat;
+}
+
+	.userDataSet .ttl {
+		line-height: 1;
+		padding: 2.5% 0 3.1%;
+		font-size: 1.5em;
+		color: #fff;
+		text-align: center;
+	}
+
+.userDataSet .userData {
+	width: 615px;
+	margin: 0;
+	line-height: 1;
+	position: absolute;
+	left: 39px;
+	font-size: 1.5em;
+}
+
+	.userDataSet .userData dt {
+		height: 40px;
+		font-size: 32px;
+		font-weight: bold;
+	}
+
+	.userDataSet .userData dd {
+		margin: 0;
+	}
+
+.userDataSet .userData.gender { top: 103px; }
+
+.userDataSet .userData.gender dd {
+	height: 136px;
+	padding-top: 30px;
+	letter-spacing: -.4em;
+	text-align: center;
+}
+
+.userDataSet .userData.birth { top: 338px; }
+
+.userDataSet .userData.birth dd {
+	height: 54px;
+	padding: 20px 12px 0;
+}
+
+.userDataSet .userData.birth dd select { text-align: right; }
+
+.userDataSet .userData.birth dd .year { width: 170px; }
+
+.userDataSet .userData.birth dd .month {
+	width: 120px;
+	margin-left: 62px;
+}
+
+.userDataSet .userData.birth dd .day {
+	width: 120px;
+	margin-left: 58px;
+}
+
+.userDataSet .userData.occupation { top: 491px; }
+
+.userDataSet .userData.occupation dd {
+	padding-top: 20px;
+	text-align: center;
+}
+
+.userDataSet .userData.occupation dd select { width: 468px; }
+
+.userDataSet .userData.region { top: 655px; }
+
+.userDataSet .userData.region dd {
+	padding-top: 20px;
+	text-align: center;
+}
+
+.userDataSet .userData.region dd select { width: 468px; }
+
+/* 男性・女性ボタン */
+.btn_men,
+.btn_women {
+	width: 263px;
+	height: 123px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.btn_men { padding-right: 11px; }
+.btn_women { padding-left: 10px; }
+
+.btn_men .btn,
+.btn_women .btn {
+	width: 263px;
+	height: 123px;
+	overflow: hidden;
+}
+
+/* 男性ボタン */
+.btn_men .btn { background-position: 0 -1500px; }
+.btn_men a.tapdown { background-position: -300px -1500px; }
+.btn_men a.active { background-position: -600px -1500px; }
+
+/* 女性ボタン */
+.btn_women .btn { background-position: 0 -1650px; }
+.btn_women a.tapdown { background-position: -300px -1650px; }
+.btn_women a.active { background-position: -600px -1650px; }
+
+
+/*----------------------------------------------------
+	page3 03-登録完了
+----------------------------------------------------*/
+.compRegist {
+	width: 635px;
+	height: 811px;
+	display: inline-block;
+	background: url(../img/bg_compRegist.png) 0 0 no-repeat;
+}
+
+/* 始めるボタン */
+.btn_start {
+	width: 430px;
+	height: 150px;
+	margin: 336px auto 0;
+}
+
+	.btn_start .btn {
+		width: 430px;
+		height: 150px;
+		overflow: hidden;
+		background-position: 0 -1350px;
+	}
+
+.btn_start a.tapdown { background-position: -450px -1350px; }
+
+/*----------------------------------------------------
+	page4 04-トップページ
+----------------------------------------------------*/
+#page4 { background: url(../img/bg_tokimeki.png) right bottom no-repeat; }
+
+.topMenu {
+	width: 635px;
+	height: 768px;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	background: url(../img/line_dot.png) center 623px no-repeat;
+}
+
+/* 測定ボタン */
+.btn_measure {
+	width: 635px;
+	height: 325px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+	.btn_measure .btn {
+		width: 635px;
+		height: 325px;
+		background-position: 0 -300px;
+	}
+
+	.btn_measure a.tapdown { background-position: -650px -300px; }
+
+/* バッチリ行動ランキングボタン */
+.btn_ranking {
+	width: 635px;
+	height: 213px;
+	position: absolute;
+	top: 355px;
+	left: 0;
+}
+	.btn_ranking .btn {
+		width: 635px;
+		height: 213px;
+		background-position: 0 -650px;
+	}
+
+	.btn_ranking a.tapdown { background-position: -650px -650px; }
+
+/* 設定・ヘルプボタン */
+.btn_help {
+	width: 379px;
+	height: 90px;
+	position: absolute;
+	top: 682px;
+	left: 127px;
+}
+	.btn_help .btn {
+		width: 379px;
+		height: 90px;
+		background-position: 0 -1800px;
+	}
+
+	.btn_help a.tapdown { background-position: -400px -1800px; }
+
+/*----------------------------------------------------
+	page5 05-測定_01
+----------------------------------------------------*/
+.queryBoxSet {
+	width: 695px;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+
+.queryBox {
+	width: 695px;
+	height: 162px;
+	padding: 35px 0 73px;
+	margin-top: 5px;
+	background: url(../img/bg_queryBox.png) 0 0 no-repeat;
+}
+
+	.queryBox:first-child { margin-top: 0; }
+
+.queryBox h2 {
+	height: 86px;
+	line-height: 86px;
+	padding-left: 137px;
+	margin-bottom: 12px;
+	overflow: hidden;
+	text-align: left;
+	background: url(../img/lbl_sprite.png) no-repeat;
+}
+
+.queryBox .q1 { background-position: 37px 0; }
+.queryBox .q2 { background-position: 37px -100px; }
+
+.queryBox select { width: 468px; font-size: 40px; }
+
+/* 次へ・測定開始ボタン */
+.btn_next,
+.btn_measureStart {
+	width: 313px;
+	height: 117px;
+	display: inline-block;
+	text-align: left;
+	letter-spacing: -.4em;
+	position: relative;
+	top: 12px;
+}
+
+	.btn_next .btn,
+	.btn_measureStart .btn {
+		width: 313px;
+		height: 117px;
+	}
+
+	.btn_next .btn { background-position: -700px 0; }
+	.btn_next a.tapdown { background-position: -1050px 0; }
+
+	.btn_measureStart .btn { background-position: -700px -150px; }
+	.btn_measureStart a.tapdown { background-position: -1050px -150px; }
+
+
+/*----------------------------------------------------
+	page6 06-測定_06 共通
+----------------------------------------------------*/
+.fingerSet1,
+.fingerSet2 {
+	width: 0px;
+	display: inline-block;
+/*	position: relative;*/
+	position: absolute;
+	text-align: left;
+}
+
+.box_cameraPreview {
+	width: 284px;
+	height: 284px;
+	position: absolute;
+	left: 372px;
+}
+
+.box_waveform {
+	width: 628px;
+	height: 260px;
+	/*position: absolute;*/
+	left: 0px;
+	overflow: hidden;
+}
+
+.box_waveform canvas {
+	background: #000;
+	/*-webkit-border-radius: 8px;
+	border-radius: 8px;*/
+}
+
+/* page6 06-測定_06-A
+   ========================================================================== */
+.fingerSet1 {
+/*	height: 836px;*/
+	background: url(../img/bg_fingerSet1.png) 0 0 no-repeat;
+}
+
+/*.fingerSet1 .box_cameraPreview { top: 212px; }*/
+/*.fingerSet1 .measure1 { top: 540px; }*/
+.fingerSet1 .measure1 { top: 0px; }
+
+/* page6 06-測定_06-B
+   ========================================================================== */
+.fingerSet2 {
+	height: 737px;
+	background: url(../img/bg_fingerSet2.png) 0 0 no-repeat;
+}
+
+.fingerSet2 .box_cameraPreview { top: 122px; }
+.fingerSet2 .measure1 { top: 440px; }
+
+/*----------------------------------------------------
+	page7 07-測定_03
+----------------------------------------------------*/
+.box_scale {
+	width: 708px;
+	height: 80px;
+	position: absolute;
+	top: 184px;
+	left: -8px;
+}
+
+	.box_scale img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		-webkit-transition: -webkit-transform 0s linear;
+		-webkit-transform-origin: 0 0;
+		-webkit-transform: translateX(0px);
+	}
+
+	.box_scale.move img {
+		-webkit-transition: -webkit-transform 40s linear;
+		-webkit-transform: translateX(624px);
+	}
+
+.box_progress {
+	width: 624px;
+	height: 96px;
+	position: absolute;
+	top: 275px;
+	left: 35px;
+	overflow: hidden;
+}
+
+	.progress {
+		width: 624px;
+		height: 96px;
+		position: absolute;
+		top: 0;
+		left: -624px;
+		background-image: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			color-stop(0, rgb(246, 202, 207)),
+			color-stop(.42, rgb(217, 102, 117)),
+			color-stop(.43, rgb(214, 91, 107)),
+			color-stop(.8, rgb(202, 72, 86)),
+			color-stop(1, rgb(241, 141, 154))
+		);
+		border-right: 1px solid #c73d49;
+		-webkit-box-shadow: 4px 0 2px rgba(0,0,0,.15),-1px 0 0px rgba(226,118,139,1) inset;
+		-webkit-transition: -webkit-transform 0s linear;
+		-webkit-transform-origin: 0 0;
+		-webkit-transform: translateX(0px);
+	}
+
+	.box_progress.move .progress {
+		-webkit-transition: -webkit-transform 40s linear;
+		-webkit-transform: translateX(624px);
+	}
+
+.box_measureDuring {
+	width: 695px;
+	height: 731px;
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	background: url(../img/bg_measureDuring.png) 0 0 no-repeat;
+}
+
+.measure2 { top: 435px; }
+
+/*----------------------------------------------------
+	page8 08-測定結果_03
+----------------------------------------------------*/
+.measureResult {
+	width: 695px;
+	height: 846px;
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	background: url(../img/bg_measureResult.png) 0 0 no-repeat;
+}
+
+#resultOverallScale {
+	width: 110px;
+	height: 110px;
+	position: absolute;
+	top: 228px;
+	left: 300px;
+	background: url(../img/tokimeki_smile.png) 0 0 no-repeat;
+	-webkit-transition: -webkit-transform 2s ease-in-out;
+	-webkit-transform-origin: 50% 50%;
+	-webkit-transform: translate(0,0);
+}
+
+#mouth {
+	width: 30px;
+	height: 11px;
+	position: absolute;
+	top: 62px;
+	left: 40px;
+	background: url(../img/mouth.png) 0 0 no-repeat;
+	-webkit-transition: opacity .5s ease-in-out;
+	opacity: 0;
+}
+
+	#resultOverallScale #mouth.grimace { opacity: 1; }
+
+/*
+.box_heartRate {
+	width: 100px;
+	height: 46px;
+	line-height: 47px;
+	position: absolute;
+	top: 641px;
+	left: 151px;
+	overflow: hidden;
+	text-align: center;
+	font-size: 34px;
+	font-weight: bold;
+}
+*/
+
+.box_feeling {
+	width: 247px;
+	height: 46px;
+	line-height: 47px;
+	overflow: hidden;
+	display: none;
+	position: absolute;
+	top: 639px;
+	left: 313px;
+	text-align: center;
+	font-size: 34px;
+	font-weight: bold;
+	border: 2px solid #000;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+}
+
+.box_feeling.active { display: block; }
+
+/* 状態 - ストレス */
+.box_feeling.stress {
+	border-color: #f48cbc;
+	background: #ffc3dc;
+}
+
+/* 状態 - ぐったり */
+.box_feeling.tired {
+	border-color: #5fb8eb;
+	background: #bde7ff;
+}
+
+/* 状態 - のんびり */
+.box_feeling.carefree {
+	border-color: #f08e48;
+	background: #f8ce95;
+}
+
+/* 状態 - バッチリ */
+.box_feeling.ideal {
+	border-color: #42c04c;
+	background: #c0f0b5;
+}
+
+.bingo {
+	width: 115px;
+	height: 75px;
+	display: none;
+	position: absolute;
+	top: 586px;
+	left: 515px;
+	background: url(../img/lbl_sprite.png) 0 -200px;
+}
+
+.bingo.active { display: block; }
+
+.box_advice {
+	width: 596px;
+	padding: 0 51px 0 48px;
+	position: absolute;
+	top: 700px;
+	left: 0;
+}
+
+	.box_advice p {
+		width: 596px;
+		height: 118px;
+/*
+		position: absolute;
+		left: 47px;
+		right: 47px;
+*/
+		line-height: 1.3;
+		margin: 0;
+		font-size: 28px;
+		overflow: hidden;
+	}
+
+/* 終了・共有ボタン */
+.btn_end,
+.btn_share {
+	width: 330px;
+	height: 117px;
+	padding: 12px 10px 0;
+	display: inline-block;
+	text-align: left;
+}
+
+	.btn_end .btn,
+	.btn_share .btn {
+		width: 330px;
+		height: 117px;
+	}
+
+	.btn_end .btn { background-position: 0 -150px; }
+	.btn_end a.tapdown { background-position: -350px -150px; }
+
+	.btn_share .btn { background-position: 0 0; }
+	.btn_share a.tapdown { background-position: -350px 0; }
+
+
+/*----------------------------------------------------
+	page9 09-バッチリ行動ランキング
+----------------------------------------------------*/
+#page9 #header { position: fixed; }
+/*#page9 #contents { padding: 119px 12px 0 13px; }*/
+
+.rankingBox {
+	height: 399px;
+	padding: 19px 21px 0 20px;
+	margin-top: 5px;
+	position: relative;
+	text-align: left;
+	background: url(../img/bg_ranking.png) 0 0 no-repeat;
+}
+
+	.rankingBox .head {
+		width: 654px;
+		height: 84px;
+		overflow: hidden;
+		position: relative;
+		background: url(../img/bg_ranking_sprite.png) 0 0 no-repeat;
+	}
+
+/* 状態 - ストレス */
+.rankingBox .head.stress { background-position: 0 0; }
+
+/* 状態 - ぐったり */
+.rankingBox .head.tired { background-position: 0 -100px; }
+
+/* 状態 - のんびり */
+.rankingBox .head.carefree { background-position: 0 -200px; }
+
+/* 状態 - バッチリ */
+.rankingBox .head.ideal { background-position: 0 -300px; }
+
+	.rankingBox .head h2 {
+		display: block;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+
+.box_predictive {
+	width: 96px;
+	height: 42px;
+	line-height: 43px;
+	padding: 0 5px;
+	overflow: hidden;
+	position: absolute;
+	top: 12px;
+	left: 498px;
+	text-align: right;
+	font-size: 34px;
+	font-weight: bold;
+}
+
+.box_ranking {
+	height: 94px;
+	line-height: 95px;
+	padding: 0 20px 0 112px;
+	overflow: hidden;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+/*----------------------------------------------------
+	page10 10-設定_ヘルプ
+----------------------------------------------------*/
+.setHelp {
+	width: 695px;
+	display: inline-block;
+	position: relative;
+	text-align: left;
+}
+
+.set_occupation {
+	width: 695px;
+	height: 396px;
+	position: relative;
+	background: url(../img/bg_occupation.png) 0 0 no-repeat;
+}
+
+.set_occupation .userData {
+	width: 615px;
+	margin: 0;
+	line-height: 1;
+	position: absolute;
+	left: 39px;
+	font-size: 1.5em;
+}
+
+.set_occupation .occupationSet { top: 36px; }
+.set_occupation .regionSet { top: 200px; }
+
+	.set_occupation .userData dt {
+		height: 40px;
+		font-size: 32px;
+		font-weight: bold;
+	}
+
+	.set_occupation .userData dd {
+		padding-top: 20px;
+		margin: 0;
+		text-align: center;
+	}
+
+.set_occupation select { width: 468px; }
+
+.set_help {
+	width: 695px;
+	height: 543px;
+	margin-top: 5px;
+	position: relative;
+	background: url(../img/bg_help.png) 0 0 no-repeat;
+}
+
+.setHelp .ttl {
+	padding: 30px 39px 0;
+	margin: 0 0 39px;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+}
+
+/* 自律神経とは・測定のしかた・注意事項ボタン */
+.btn_nerves,
+.btn_howTo,
+.btn_notes {
+	width: 558px;
+	height: 103px;
+	margin: 22px auto 0;
+}
+
+	.btn_nerves .btn,
+	.btn_howTo .btn,
+	.btn_notes .btn {
+		width: 558px;
+		height: 103px;
+	}
+
+	.btn_nerves .btn { background-position: 0 -900px;}
+	.btn_nerves a.tapdown { background-position: -600px -900px;}
+
+	.btn_howTo .btn { background-position: 0 -1050px;}
+	.btn_howTo a.tapdown { background-position: -600px -1050px;}
+
+	.btn_notes .btn { background-position: 0 -1200px;}
+	.btn_notes a.tapdown { background-position: -600px -1200px;}
