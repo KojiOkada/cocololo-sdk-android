@@ -39,6 +39,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/kunishinryuunosuke/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/kunishinryuunosuke/開発/winflontier/cocololo/sdk/android_sdk/win/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_c4545672f4888cd08e592e52f4077d29cd0f73dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/kunishinryuunosuke/開発/winflontier/cocololo/sdk/android_sdk/win/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -52,7 +61,7 @@
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="c266f340262a6c3e25bbe5e752087625606e957a">
+        sha1="84f83494664230caa2118359113a45f608a1b563">
         <dex dex="/Users/kunishinryuunosuke/開発/winflontier/cocololo/sdk/android_sdk/win/app/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-cocololo-beta-1.0.0_ce6aab051ceea3ac0c1bfb154d3e5e391c841ef3.jar" />
     </item>
     <item
@@ -108,15 +117,6 @@
         revision="25.0.2"
         sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
         <dex dex="/Users/kunishinryuunosuke/開発/winflontier/cocololo/sdk/android_sdk/win/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_552e93ca6062593df92c52d1114e72773dd2f785.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Applications/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/Users/kunishinryuunosuke/開発/winflontier/cocololo/sdk/android_sdk/win/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_14cc6bf8416bcfe68d57365d62068f81525726ef.jar" />
     </item>
 
 </items>
